@@ -32,7 +32,8 @@ class ViewController: UIViewController {
 
     @IBAction func Click(sender: AnyObject) {
         
-        print("Ni de pedo")
+        //print("Ni de pedo")
+        
     }
 
 }
