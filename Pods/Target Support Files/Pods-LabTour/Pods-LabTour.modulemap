@@ -1,0 +1,6 @@
+framework module Pods_LabTour {
+  umbrella header "Pods-LabTour-umbrella.h"
+
+  export *
+  module * { export * }
+}

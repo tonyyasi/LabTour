@@ -9,7 +9,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -63,6 +62,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1341" y="-515"/>
         </scene>
@@ -143,9 +143,9 @@
                                             <segue destination="0or-zf-YeG" kind="show" id="Gz1-pG-WwZ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-Uy-y3N">
-                                        <rect key="frame" x="10" y="15" width="62" height="30"/>
-                                        <state key="normal" title="Regresar"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-Uy-y3N">
+                                        <rect key="frame" x="-27" y="14" width="136" height="31"/>
+                                        <state key="normal" image="Regresar-1"/>
                                         <connections>
                                             <segue destination="hvI-Av-JVG" kind="show" id="1Sl-uE-SpN"/>
                                         </connections>
@@ -172,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lA8-4N-iTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1262" y="-62"/>
+            <point key="canvasLocation" x="1356" y="-56"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="Tnu-Ms-ADB">
@@ -204,12 +204,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N78-cT-Nr2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-308" y="-969"/>
+            <point key="canvasLocation" x="-280" y="-967"/>
         </scene>
         <!--Tour-->
         <scene sceneID="Rel-oa-Rva">
             <objects>
-                <viewController title="Tour" id="lTF-Zo-uNw" sceneMemberID="viewController">
+                <viewController title="Tour" id="lTF-Zo-uNw" customClass="ViewControllerFirstPage" customModule="LabTour" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tju-XY-ivG"/>
                         <viewControllerLayoutGuide type="bottom" id="5xv-pP-uvW"/>
@@ -229,6 +229,7 @@
                                 </constraints>
                                 <state key="normal" image="Screen Shot 2016-03-07 at 5.03.30 PM"/>
                                 <connections>
+                                    <action selector="clickBotonDerecha:" destination="lTF-Zo-uNw" eventType="touchUpInside" id="Eg3-H0-02e"/>
                                     <segue destination="iFs-4E-Lwj" kind="show" id="fxQ-62-pdc"/>
                                 </connections>
                             </button>
@@ -260,6 +261,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tour" id="uCh-KM-pvE"/>
+                    <connections>
+                        <outlet property="botonDerecha" destination="HNh-Qo-Dir" id="LX9-T3-ABf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rf6-Vw-FO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -277,9 +281,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqZ-2L-n3K">
-                                <rect key="frame" x="27" y="36" width="62" height="30"/>
-                                <state key="normal" title="Regresar">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqZ-2L-n3K">
+                                <rect key="frame" x="-10" y="35" width="136" height="31"/>
+                                <state key="normal" image="Regresar-1">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -435,6 +439,7 @@
     </scenes>
     <resources>
         <image name="12804081_10207601698453521_2047629372_n" width="720" height="960"/>
+        <image name="Regresar-1" width="63" height="31"/>
         <image name="Screen Shot 2016-03-07 at 5.03.30 PM" width="434" height="350"/>
         <image name="Screen Shot 2016-03-07 at 6.50.52 PM" width="614" height="164"/>
         <image name="si" width="392" height="316"/>

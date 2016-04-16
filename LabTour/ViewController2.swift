@@ -22,7 +22,7 @@ class ViewController2: UIViewController {
         
         ScrollView.contentSize.width = 960
         ScrollView.contentSize.height = 279
-        
+        NSLog("a")
     }
 
     override func didReceiveMemoryWarning() {
