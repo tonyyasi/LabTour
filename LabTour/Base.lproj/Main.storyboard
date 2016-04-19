@@ -133,21 +133,21 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oga-Fg-id6">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kug-cc-gDX">
-                                        <rect key="frame" x="597" y="193" width="72" height="319"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="Click:" destination="iFs-4E-Lwj" eventType="touchUpInside" id="eD0-np-iO1"/>
-                                            <segue destination="0or-zf-YeG" kind="show" id="Gz1-pG-WwZ"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-Uy-y3N">
                                         <rect key="frame" x="-27" y="14" width="136" height="31"/>
                                         <state key="normal" image="Regresar-1"/>
                                         <connections>
                                             <segue destination="hvI-Av-JVG" kind="show" id="1Sl-uE-SpN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kug-cc-gDX">
+                                        <rect key="frame" x="572" y="314" width="92" height="96"/>
+                                        <state key="normal" backgroundImage="fto4">
+                                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Click:" destination="iFs-4E-Lwj" eventType="touchUpInside" id="eD0-np-iO1"/>
+                                            <segue destination="0or-zf-YeG" kind="show" id="Gz1-pG-WwZ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -442,6 +442,7 @@
         <image name="Regresar-1" width="63" height="31"/>
         <image name="Screen Shot 2016-03-07 at 5.03.30 PM" width="434" height="350"/>
         <image name="Screen Shot 2016-03-07 at 6.50.52 PM" width="614" height="164"/>
+        <image name="fto4" width="494" height="503"/>
         <image name="si" width="392" height="316"/>
     </resources>
     <inferredMetricsTieBreakers>
