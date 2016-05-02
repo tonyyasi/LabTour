@@ -397,18 +397,19 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2C-SQ-1RZ">
                                 <rect key="frame" x="-10" y="0.0" width="620" height="78"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabTour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3V3-cJ-AHf">
-                                        <rect key="frame" x="261.5" y="22" width="98.5" height="31.5"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LABTOUR_logo_HR" translatesAutoresizingMaskIntoConstraints="NO" id="Vbp-bd-xao">
+                                        <rect key="frame" x="185" y="0.0" width="250" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="1jr-XX-HXp"/>
+                                            <constraint firstAttribute="height" constant="75" id="RSz-3O-cr3"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="3V3-cJ-AHf" firstAttribute="centerX" secondItem="J2C-SQ-1RZ" secondAttribute="centerX" id="CVw-T5-0Ed"/>
                                     <constraint firstAttribute="height" constant="78" id="QVy-YM-IXr"/>
-                                    <constraint firstItem="3V3-cJ-AHf" firstAttribute="top" secondItem="J2C-SQ-1RZ" secondAttribute="top" constant="22" id="uMP-w4-8bI"/>
+                                    <constraint firstItem="Vbp-bd-xao" firstAttribute="centerX" secondItem="J2C-SQ-1RZ" secondAttribute="centerX" id="auN-2g-X7d"/>
+                                    <constraint firstItem="Vbp-bd-xao" firstAttribute="top" secondItem="J2C-SQ-1RZ" secondAttribute="top" id="uNe-7J-8Ip"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -446,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rf6-Vw-FO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733" y="-907"/>
+            <point key="canvasLocation" x="736" y="-886"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ptL-wS-UpQ">
@@ -733,6 +734,7 @@
     <resources>
         <image name="12804081_10207601698453521_2047629372_n" width="720" height="960"/>
         <image name="IconoTab" width="35" height="35"/>
+        <image name="LABTOUR_logo_HR" width="1063" height="212"/>
         <image name="Screen Shot 2016-03-07 at 5.03.30 PM" width="434" height="350"/>
         <image name="Screen Shot 2016-03-07 at 6.50.52 PM" width="614" height="164"/>
         <image name="fto4" width="494" height="503"/>
