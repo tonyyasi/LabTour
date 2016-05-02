@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         ScrollView.backgroundColor = UIColor(patternImage: (UIImage(named: "Foto1")!))
         
         ScrollView.contentSize.width = 960
-        ScrollView.contentSize.height = 720
+        ScrollView.contentSize.height = 652
         
         
     }

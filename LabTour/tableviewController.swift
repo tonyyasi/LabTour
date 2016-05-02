@@ -27,8 +27,7 @@ class tableViewController: UIViewController, UITableViewDataSource, UITableViewD
         print(filters[indexPath.row])
         if(filters[indexPath.row] == "Solben"){
             
-            let next = self.storyboard?.instantiateViewControllerWithIdentifier("Solben")
-            self.presentViewController(next!, animated: true, completion: nil)
+            
         }
     }
     
