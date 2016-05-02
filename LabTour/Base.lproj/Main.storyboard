@@ -288,7 +288,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12804081_10207601698453521_2047629372_n" translatesAutoresizingMaskIntoConstraints="NO" id="w9B-lL-bkV">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12804081_10207601698453521_2047629372_n" translatesAutoresizingMaskIntoConstraints="NO" id="w9B-lL-bkV">
                                 <rect key="frame" x="20" y="78" width="560" height="473"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNh-Qo-Dir">
@@ -309,7 +309,7 @@
                                     <constraint firstAttribute="width" constant="35" id="2BU-hC-K4K"/>
                                     <constraint firstAttribute="height" constant="35" id="liT-cS-AS6"/>
                                 </constraints>
-                                <state key="normal" image="si">
+                                <state key="normal">
                                     <color key="titleColor" red="1" green="0.92940147166769282" blue="0.06769596782848275" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.3708910346031189" green="0.51018369197845459" blue="0.69709491729736328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -408,14 +408,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2v7-2U-io4">
-                                <rect key="frame" x="20" y="184" width="350" height="85"/>
+                                <rect key="frame" x="20" y="184" width="300" height="85"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="sou-sE-4xA"/>
-                                    <constraint firstAttribute="width" constant="350" id="xbB-Vx-Z63"/>
+                                    <constraint firstAttribute="width" constant="300" id="xbB-Vx-Z63"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Se utiliza para calcular el coeficiente de transferencia de masa entre el liquido y el gas.">
@@ -428,13 +428,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Se usa para ver como interactúan los gases y los líquidos a diferentes temperaturas." translatesAutoresizingMaskIntoConstraints="NO" id="X3E-Fa-oF4">
-                                <rect key="frame" x="20" y="483" width="350" height="88"/>
+                                <rect key="frame" x="20" y="483" width="300" height="88"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="RmJ-lC-QUh"/>
+                                    <constraint firstAttribute="width" constant="300" id="RmJ-lC-QUh"/>
                                     <constraint firstAttribute="height" constant="88" id="jOn-hT-EzS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -469,14 +469,14 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQc-CP-Kti">
-                                <rect key="frame" x="20" y="327" width="350" height="128"/>
+                                <rect key="frame" x="20" y="327" width="300" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="Sp7-i6-e2t"/>
-                                    <constraint firstAttribute="width" constant="350" id="zg1-yg-23e"/>
+                                    <constraint firstAttribute="width" constant="300" id="zg1-yg-23e"/>
                                 </constraints>
                                 <string key="text">Se introduce el liquido a examinar y este cae por el tubo transparente vertical. En la pantalla puedes observar el coeficiente de transferencia de masa.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -565,8 +565,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3a9-nh-AAO">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="78"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solben" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-1p-5Ph">
-                                        <rect key="frame" x="257" y="28" width="86.5" height="31.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOLBEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-1p-5Ph">
+                                        <rect key="frame" x="248" y="28" width="103" height="32"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -592,13 +592,41 @@
                                     <constraint firstItem="NGV-Gk-UGd" firstAttribute="top" secondItem="3a9-nh-AAO" secondAttribute="top" constant="15" id="zH7-aJ-5Vd"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solben" translatesAutoresizingMaskIntoConstraints="NO" id="BpG-NF-ab4">
+                                <rect key="frame" x="50" y="367" width="180" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Xsi-Fb-Ga1"/>
+                                    <constraint firstAttribute="width" constant="180" id="hT9-IR-wvf"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="siz-aD-ImM">
+                                <rect key="frame" x="20" y="153" width="280" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="kdL-8p-yWU"/>
+                                    <constraint firstAttribute="width" constant="280" id="lvW-Ym-eeT"/>
+                                </constraints>
+                                <string key="text">SOLBEN es una empresa fundada por Daniel Gómez. SOLBEN desarrolla tecnologías para la generación de energía a partir de materias primas renovables cuidando la buena utilización de los recursos.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="siz-aD-ImM" firstAttribute="leading" secondItem="Jb7-jn-GlJ" secondAttribute="leadingMargin" id="0IM-gu-dhj"/>
+                            <constraint firstItem="siz-aD-ImM" firstAttribute="top" secondItem="3a9-nh-AAO" secondAttribute="bottom" constant="75" id="Dj5-hh-7Tm"/>
+                            <constraint firstItem="BpG-NF-ab4" firstAttribute="top" secondItem="siz-aD-ImM" secondAttribute="bottom" constant="14" id="Ru9-EN-5gU"/>
                             <constraint firstItem="3a9-nh-AAO" firstAttribute="top" secondItem="Jb7-jn-GlJ" secondAttribute="top" id="Sjh-Sf-e84"/>
                             <constraint firstItem="3a9-nh-AAO" firstAttribute="leading" secondItem="Jb7-jn-GlJ" secondAttribute="leading" id="Wjh-dI-5Vu"/>
                             <constraint firstAttribute="trailing" secondItem="3a9-nh-AAO" secondAttribute="trailing" id="ogJ-Y5-u0y"/>
+                            <constraint firstItem="BpG-NF-ab4" firstAttribute="centerX" secondItem="Jb7-jn-GlJ" secondAttribute="centerX" id="rNz-HB-h30"/>
+                            <constraint firstItem="BpG-NF-ab4" firstAttribute="leading" secondItem="Jb7-jn-GlJ" secondAttribute="leadingMargin" constant="30" id="uth-IT-Zc8"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rNz-HB-h30"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JaP-ed-E3r" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -629,10 +657,10 @@
         <image name="Screen Shot 2016-03-07 at 5.03.30 PM" width="434" height="350"/>
         <image name="Screen Shot 2016-03-07 at 6.50.52 PM" width="614" height="164"/>
         <image name="fto4" width="494" height="503"/>
-        <image name="si" width="392" height="316"/>
+        <image name="solben" width="600" height="264"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="y5W-yW-cqp"/>
-        <segue reference="3n0-F6-DrK"/>
+        <segue reference="o1f-Sw-KwX"/>
+        <segue reference="fxQ-62-pdc"/>
     </inferredMetricsTieBreakers>
 </document>
