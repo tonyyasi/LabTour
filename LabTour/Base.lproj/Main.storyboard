@@ -66,7 +66,7 @@
             </objects>
             <point key="canvasLocation" x="-1341" y="-515"/>
         </scene>
-        <!--Logros del Laboratorio-->
+        <!--Logros-->
         <scene sceneID="KHS-9m-SnC">
             <objects>
                 <viewController id="tON-mC-X8N" customClass="tableViewController" customModule="LabTour" customModuleProvider="target" sceneMemberID="viewController">
@@ -140,7 +140,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Logros del Laboratorio" id="ZZ5-48-hGB"/>
+                    <tabBarItem key="tabBarItem" title="Logros" image="logros" id="ZZ5-48-hGB"/>
                     <connections>
                         <outlet property="tableview" destination="eUD-xw-T6i" id="adE-o0-4XI"/>
                     </connections>
@@ -362,7 +362,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tour" id="uCh-KM-pvE"/>
+                    <tabBarItem key="tabBarItem" title="Tour" image="IconoTab" id="uCh-KM-pvE"/>
                     <connections>
                         <outlet property="botonDerecha" destination="HNh-Qo-Dir" id="LX9-T3-ABf"/>
                     </connections>
@@ -654,9 +654,11 @@
     </scenes>
     <resources>
         <image name="12804081_10207601698453521_2047629372_n" width="720" height="960"/>
+        <image name="IconoTab" width="35" height="35"/>
         <image name="Screen Shot 2016-03-07 at 5.03.30 PM" width="434" height="350"/>
         <image name="Screen Shot 2016-03-07 at 6.50.52 PM" width="614" height="164"/>
         <image name="fto4" width="494" height="503"/>
+        <image name="logros" width="35" height="35"/>
         <image name="solben" width="600" height="264"/>
     </resources>
     <inferredMetricsTieBreakers>
